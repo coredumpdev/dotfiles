@@ -1,5 +1,5 @@
 [general]
-	import = ["rose-pine.toml"]
+import = ["themes/noctalia.toml"]
 
 [window]
 decorations = "none"

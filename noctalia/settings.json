@@ -30,14 +30,14 @@
         "exclusive": true,
         "floating": true,
         "marginHorizontal": 0.25,
-        "marginVertical": 0.25,
+        "marginVertical": 0.12,
         "monitors": [
         ],
         "outerCorners": true,
         "position": "top",
         "showCapsule": true,
         "showOutline": false,
-        "transparent": false,
+        "transparent": true,
         "widgets": {
             "center": [
                 {
@@ -124,6 +124,18 @@
                     "id": "Brightness"
                 },
                 {
+                    "displayMode": "onhover",
+                    "id": "Bluetooth"
+                },
+                {
+                    "deviceNativePath": "",
+                    "displayMode": "onhover",
+                    "id": "Battery",
+                    "showNoctaliaPerformance": false,
+                    "showPowerProfiles": false,
+                    "warningThreshold": 30
+                },
+                {
                     "customFont": "",
                     "formatHorizontal": "HH:mm ddd, MMM dd",
                     "formatVertical": "HH mm - dd MM",
@@ -174,7 +186,7 @@
         "manualSunrise": "06:30",
         "manualSunset": "18:30",
         "matugenSchemeType": "scheme-fruit-salad",
-        "predefinedScheme": "Tokyo Night",
+        "predefinedScheme": "Catppuccin",
         "schedulingMode": "off",
         "useWallpaperColors": false
     },
@@ -199,6 +211,10 @@
             {
                 "enabled": true,
                 "id": "media-sysmon-card"
+            },
+            {
+                "enabled": false,
+                "id": "brightness-card"
             }
         ],
         "position": "close_to_bar_button",
@@ -206,6 +222,9 @@
             "left": [
                 {
                     "id": "WiFi"
+                },
+                {
+                    "id": "Bluetooth"
                 },
                 {
                     "id": "ScreenRecorder"
@@ -256,7 +275,7 @@
         "allowPanelsOnScreenWithoutBar": true,
         "animationDisabled": false,
         "animationSpeed": 1,
-        "avatarImage": "/home/tony/.face",
+        "avatarImage": "/home/coredumpdev/Pictures/profile.jpg",
         "boxRadiusRatio": 1,
         "compactLockScreen": false,
         "dimmerOpacity": 0.2,
@@ -346,7 +365,7 @@
         "audioCodec": "opus",
         "audioSource": "default_output",
         "colorRange": "limited",
-        "directory": "/home/tony/Videos",
+        "directory": "/home/coredumpdev/Videos",
         "frameRate": 60,
         "quality": "very_high",
         "showCursor": true,
@@ -403,7 +422,7 @@
         "cpuCriticalThreshold": 90,
         "cpuPollingInterval": 3000,
         "cpuWarningThreshold": 80,
-        "criticalColor": "",
+        "criticalColor": "#f38ba8",
         "diskCriticalThreshold": 90,
         "diskPollingInterval": 3000,
         "diskWarningThreshold": 80,
@@ -419,22 +438,22 @@
         "tempPollingInterval": 3000,
         "tempWarningThreshold": 80,
         "useCustomColors": false,
-        "warningColor": ""
+        "warningColor": "#94e2d5"
     },
     "templates": {
-        "alacritty": false,
+        "alacritty": true,
         "cava": false,
         "code": false,
         "discord": false,
         "emacs": false,
         "enableUserTemplates": false,
         "foot": false,
-        "fuzzel": false,
+        "fuzzel": true,
         "ghostty": false,
-        "gtk": false,
+        "gtk": true,
         "kcolorscheme": false,
         "kitty": false,
-        "niri": false,
+        "niri": true,
         "pywalfox": false,
         "qt": false,
         "spicetify": false,
@@ -466,7 +485,7 @@
         ],
         "overviewEnabled": false,
         "panelPosition": "follow_bar",
-        "randomEnabled": true,
+        "randomEnabled": false,
         "randomIntervalSec": 300,
         "recursiveSearch": true,
         "setWallpaperOnAllMonitors": true,

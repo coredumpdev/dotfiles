@@ -176,6 +176,12 @@ window-rule {
 
 
 // workspace "" {
+workspace "f" {
+}
+workspace "e" {
+}
+workspace "d" {
+}
 workspace "c" {
 }
 workspace "b" {
@@ -465,3 +471,4 @@ binds {
     // moving the mouse or pressing any other key.
     Mod+Shift+P { power-off-monitors; }
 }
+include "./noctalia.kdl"
