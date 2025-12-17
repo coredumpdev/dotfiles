@@ -1,0 +1,6 @@
+require("coredumpdev.remap")
+require("coredumpdev.lazy")
+require("coredumpdev.config.catppuccin")
+require("coredumpdev.config.telescope")
+require("coredumpdev.config.treesitter")
+require("coredumpdev.config.neotree")

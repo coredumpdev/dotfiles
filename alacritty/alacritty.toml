@@ -1,0 +1,5 @@
+[general]
+	import = ["rose-pine.toml"]
+
+[window]
+decorations = "none"
