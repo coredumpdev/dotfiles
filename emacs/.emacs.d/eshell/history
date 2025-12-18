@@ -1,0 +1,8 @@
+ls
+gcc main.c
+./a.out
+gcc main.c
+./a.out
+gcc main.c
+gcc main.c
+./a.out
