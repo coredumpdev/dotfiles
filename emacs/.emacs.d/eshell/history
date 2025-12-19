@@ -6,3 +6,31 @@ gcc main.c
 gcc main.c
 gcc main.c
 ./a.out
+clear
+ls
+clear
+ls
+ls -al
+cd
+gcc --version
+source .bashrc
+ls
+clear
+ls
+cd Development/
+ls
+ls -al
+ls -alrt
+ls -larth
+ls -lat
+ls -lah
+cd 
+ls
+ls -alh
+clear
+ls
+clear
+clear
+ls
+clear
+ls
