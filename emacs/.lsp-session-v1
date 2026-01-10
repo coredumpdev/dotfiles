@@ -1,0 +1,1 @@
+#s(lsp-session ("/home/coredumpdev/Development/C-C++/pci" "/home/coredumpdev/Development/MSP430/blink_project") ("/home/coredumpdev/Development/Go/proje/" "/home/coredumpdev/Development/Go/proj/") #s(hash-table test equal) #s(hash-table test equal) #s(hash-table test equal))

@@ -1,0 +1,5 @@
+[general]
+import = ["themes/noctalia.toml"]
+
+[window]
+decorations = "none"
